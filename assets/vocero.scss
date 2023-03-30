@@ -34,7 +34,7 @@ $brand-color: map-get($brand-colors, "orangered");
 
 $content-width: {{ site.content_width | default: '920px' }};
 
-@include "yat";
+@import "yat";
 
 .vocero-preview {
     padding: 60px 0;
